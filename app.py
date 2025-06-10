@@ -37,7 +37,7 @@ async def echo_handler(message: Message) -> None:
 
 
 async def main() -> None:
-    # Initialize Bot instance with default bot properties which will be passed to all API calls
+    # Initialize Bot instance with reply bot properties which will be passed to all API calls
     bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 
     # And the run events dispatching
